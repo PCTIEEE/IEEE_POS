@@ -6,3 +6,58 @@ a:visited {color: #000000;}  /* visited link */
 a:hover {color: #000000;}   /* mouse over link */
 a:active {color: #000000;}   /* selected link */
 a.none {text-decoration: none; color: inherit;}	/* navigation links */
+
+/* Main */
+body {
+	background: #00248F;
+}
+div.content{
+	width: 95%;
+}
+
+
+/* Item Buttons */
+div.item_pad {
+	width: 29%;
+	height: 95%;
+	float: left;
+}
+div.item_but {
+	width: 46%;
+	height: 25%;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+/* Number Buttons */
+div.num_pad {
+	width: 29%;
+	float: left;
+}
+div.num_but {
+	width: 25%;
+	height: 100px;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-style: outset;
+}
+
+/* Center Display */
+div.center_pad {
+	width: 40%;
+	float: left;
+}
+div.center_dis {
+	width: 95%;
+	background-color: #FFFFFF;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}

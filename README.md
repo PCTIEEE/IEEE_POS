@@ -1,4 +1,4 @@
-IEEE_POS
+IEEE_POS v 0.0.01
 ========
 
-A open-source html5 point of sale software.
+An open-source html5 point of sale software.

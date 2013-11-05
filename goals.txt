@@ -1,0 +1,12 @@
+Required Features:
+-Complete Landscape Version
+-Inventory System
+-Inventory Excel Sheet export
+-Sales Excel Sheet export
+-Load/Save feature
+
+
+Want:
+-Backup File
+-Portrait Version
+-Easy Custom Purchase menu (i.e. * button)

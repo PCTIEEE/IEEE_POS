@@ -1,0 +1,4 @@
+v 0.0.01
+
+- Added landscape version
+- Edited index page to link to landscape version
