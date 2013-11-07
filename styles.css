@@ -60,4 +60,10 @@ div.center_dis {
 	background-color: #FFFFFF;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	float: left;
+}
+div.list_seg {
+	height: 150px;
+	width: inherit;
+	float: left;
 }

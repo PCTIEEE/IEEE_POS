@@ -1,84 +1,92 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script src="script.js"></script>
 	<title>Landscape View</title>
 </head>
 <body>
 
 	<div class="content">
 		<div class="item_pad">
-			<div class="item_but">
+			<div class="item_but" id="i0" onclick="itemPress(0)">
 				Ham Hoagies
 			</div>
-			<div class="item_but">
+			<div class="item_but" id="i1" onclick="itemPress(1)">
 				Turkey Hoagies
 			</div>
-			<div class="item_but">
+			<div class="item_but" id="i2" onclick="itemPress(2)">
 				Chips
 			</div>
-			<div class="item_but">
+			<div class="item_but" id="i3" onclick="itemPress(3)">
 				Baked Goods
 			</div>
-			<div class="item_but">
+			<div class="item_but" id="i4" onclick="itemPress(4)">
 				Soda
 			</div>
-			<div class="item_but">
+			<div class="item_but" id="i5" onclick="itemPress(5)">
 				Water
 			</div>
 		</div>
 		
 		<div class="center_pad">
-			<div class="center_dis" height="50%">
-				list
+			<div class="center_dis">
+				<div class="list_seg" style="width: 15%;" id="quantity">Quantity <br /></div>
+				<div class="list_seg" style="width: 70%;" id="list">Product Price Per <br /></div>
+				<div class="list_seg" style="width: 15%;" id="total">Total <br /></div>
+				<br />
 			</div>
-			<div class="center_dis" height="20%">
+			<div class="center_dis">
+				<div class="list_seg" style="width: 85%;">Total<br /></div>
+				<div class="list_seg" style="width: 15%;" id="totalamount"><br /></div>
+			</div>
+			<div class="center_dis" onclick="cancel()">
 				Paid
 			</div>
-			<div class="center_dis" height="5%">
+			<div class="center_dis" onclick="cancel()">
 				Cancel
 			</div>
 		</div>
 		
 		<div class="num_pad">
-			<div class="num_but">
+			<div class="num_but" id="1" onclick="numPress(1)">
 				1
 			</div>
-			<div class="num_but">
+			<div class="num_but" id="2" onclick="numPress(2)">
 				2
 			</div>
-			<div class="num_but">
+			<div class="num_but" id="3" onclick="numPress(3)">
 				3
 			</div>
-			<div class="num_but">
+			<div class="num_but" id="4" onclick="numPress(4)">
 				4
 			</div>
-			<div class="num_but">
+			<div class="num_but" id="5" onclick="numPress(5)">
 				5
 			</div>
-			<div class="num_but">
+			<div class="num_but" id="6" onclick="numPress(6)">
 				6
 			</div>
-			<div class="num_but">
+			<div class="num_but" id="7" onclick="numPress(7)">
 				7
 			</div>
-			<div class="num_but">
+			<div class="num_but" id="8" onclick="numPress(8)">
 				8
 			</div>
-			<div class="num_but">
+			<div class="num_but" id="9" onclick="numPress(9)">
 				9
 			</div>
-			<div class="num_but">
-				
+			<div class="num_but" id="" onclick="numPress(99)">
+				*
 			</div>
-			<div class="num_but">
+			<div class="num_but" id="0" onclick="numPress(0)">
 				0
 			</div>
-			<div class="num_but">
-				*
+			<div class="num_but" id="" onclick="numPress(99)">
+				=
 			</div>
 		</div>
 			
 	</div>
-
+	
 </body>
 </html>

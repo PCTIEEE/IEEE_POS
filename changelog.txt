@@ -1,3 +1,17 @@
+v 0.0.02
+
+- Implemented Javascript for Item buttons
+- No animation of button clicks(tba)
+- list has been seperated into three columns to allow easier changes
+- Paid and Cancel currently both clear the Product list
+- Numberpad works, but doesn't have a live view of what the input is
+- Total Quantity works for each row of list
+- Total current purchase amount now displays after each item quantity is input
+
+^ Quantity can be input without an item selected
+^ Items can be added without quantities
+^ totalamount field is to large
+
 v 0.0.01
 
 - Added landscape version
