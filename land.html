@@ -29,20 +29,26 @@
 		</div>
 		
 		<div class="center_pad">
-			<div class="center_dis">
-				<div class="list_seg" style="width: 15%;" id="quantity">Quantity <br /></div>
-				<div class="list_seg" style="width: 70%;" id="list">Product Price Per <br /></div>
-				<div class="list_seg" style="width: 15%;" id="total">Total <br /></div>
+			<div class="center_dis" style="border-bottom: thick solid #000000">
+				<div class="list_seg" style="width: 15%;">Quantity <br /></div>
+				<div class="list_seg" style="width: 70%;">Product                  Price Per <br /></div>
+				<div class="list_seg" style="width: 15%;">Total <br /></div>
 				<br />
 			</div>
 			<div class="center_dis">
-				<div class="list_seg" style="width: 85%;">Total<br /></div>
-				<div class="list_seg" style="width: 15%;" id="totalamount"><br /></div>
+				<div class="list_seg" style="width: 15%; height: 50%;" id="quantity"></div>
+				<div class="list_seg" style="width: 70%; height: 50%;" id="list"></div>
+				<div class="list_seg" style="width: 15%; height: 50%;" id="total"></div>
+				<br />
 			</div>
-			<div class="center_dis" onclick="cancel()">
+			<div class="center_dis" style="border-top: thin solid #000000">
+				<div class="list_seg" style="width: 85%;">Total<br /></div>
+				<div class="list_seg" style="width: 15%;" id="totalamount">$0</div>
+			</div>
+			<div class="center_input" style="height: 15%; background-color: #33CC33;" onclick="paid()">
 				Paid
 			</div>
-			<div class="center_dis" onclick="cancel()">
+			<div class="center_input" style="height: 10%; background-color: #CC0000;" onclick="cancel()">
 				Cancel
 			</div>
 		</div>
@@ -75,13 +81,13 @@
 			<div class="num_but" id="9" onclick="numPress(9)">
 				9
 			</div>
-			<div class="num_but" id="" onclick="numPress(99)">
+			<div class="num_but" id="" onclick="specialmenuPress()">
 				*
 			</div>
 			<div class="num_but" id="0" onclick="numPress(0)">
 				0
 			</div>
-			<div class="num_but" id="" onclick="numPress(99)">
+			<div class="num_but" id="" onclick="equalsign()">
 				=
 			</div>
 		</div>

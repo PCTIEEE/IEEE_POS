@@ -13,6 +13,12 @@ body {
 }
 div.content{
 	width: 95%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 
@@ -23,7 +29,7 @@ div.item_pad {
 	float: left;
 }
 div.item_but {
-	width: 46%;
+	width: 45%;
 	height: 25%;
 	float: left;
 	text-align: center;
@@ -31,6 +37,7 @@ div.item_but {
 	background-color: #FFFFFF;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	border-style: outset;
 }
 
 /* Number Buttons */
@@ -59,11 +66,18 @@ div.center_dis {
 	width: 95%;
 	background-color: #FFFFFF;
 	margin-right: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	float: left;
 }
 div.list_seg {
-	height: 150px;
 	width: inherit;
+	float: left;
+}
+div.center_input {
+	width: 95%;
+	text-align: center;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-style: outset;
 	float: left;
 }

@@ -1,3 +1,12 @@
+v 0.0.03
+
+- totalamount field is now one line
+- Colored the pay and cancel buttons
+- Added outset border to all buttons
+- Quantity and items can no longer stack on each other without prior input
+- Total Sales amount is now visible by clicking on "*" key
+- Live view of quantity now implemented
+
 v 0.0.02
 
 - Implemented Javascript for Item buttons
