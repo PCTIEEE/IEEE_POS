@@ -21,32 +21,26 @@ var totalsales = 0;
 //Item 1
 var item0 = "Ham Hoagies";
 var item0c = 1;
-var item0t=item0+item0c;
 
 //Item 2
 var item1 = "Turkey Hoagies";
 var item1c = 2;
-var item1t=item1+item1c;
 
 //Item 3
 var item2 = "Chips";
 var item2c = 0.25;
-var item2t=item2+item2c;
 
 //Item 4
 var item3 = "Baked Goods";
 var item3c = 0.5;
-var item3t=item3+item3c;
 
 //Item 5
 var item4 = "Soda";
 var item4c = 0.5;
-var item4t=item4+item4c;
 
 //Item 6
 var item5 = "Water";
 var item5c = 1;
-var item5t=item5+item5c;
 
 
 // Main Program Code
@@ -54,30 +48,37 @@ var item5t=item5+item5c;
 function itemPress(item){
 	if (waitpur == 0){
 		listbefore = document.getElementById("list").innerHTML;
+		pricebefore = document.getElementById("price").innerHTML;
 		switch (item)
 		{
 			case 0:
-				document.getElementById("list").innerHTML=listbefore + item0t + "<br />";
+				document.getElementById("list").innerHTML=listbefore + item0 + "<br />";
+				document.getElementById("price").innerHTML=pricebefore + "$" + item0c + "<br />";
 				itemc = item0c;
 			break;
 			case 1:
-				document.getElementById("list").innerHTML=listbefore + item1t + "<br />";
+				document.getElementById("list").innerHTML=listbefore + item1 + "<br />";
+				document.getElementById("price").innerHTML=pricebefore + "$" + item1c + "<br />";
 				itemc = item1c;
 			break;
 			case 2:
-				document.getElementById("list").innerHTML=listbefore + item2t + "<br />";
+				document.getElementById("list").innerHTML=listbefore + item2 + "<br />";
+				document.getElementById("price").innerHTML=pricebefore + "$" + item2c + "<br />";
 				itemc = item2c;
 			break;
 			case 3:
-				document.getElementById("list").innerHTML=listbefore + item3t + "<br />";
+				document.getElementById("list").innerHTML=listbefore + item3 + "<br />";
+				document.getElementById("price").innerHTML=pricebefore + "$" + item3c + "<br />";
 				itemc = item3c;
 			break;
 			case 4:
-				document.getElementById("list").innerHTML=listbefore + item4t + "<br />";
+				document.getElementById("list").innerHTML=listbefore + item4 + "<br />";
+				document.getElementById("price").innerHTML=pricebefore + "$" + item4c + "<br />";
 				itemc = item4c;
 			break;
 			case 5:
-				document.getElementById("list").innerHTML=listbefore + item5t + "<br />";
+				document.getElementById("list").innerHTML=listbefore + item5 + "<br />";
+				document.getElementById("price").innerHTML=pricebefore + "$" + item5c + "<br />";
 				itemc = item5c;
 			break;
 		}
@@ -139,18 +140,23 @@ function equalsign(){
 }
 
 function paid(){
-	totalsales = totalsales + totalamount;
-	document.getElementById("quantity").innerHTML="";
-	document.getElementById("list").innerHTML="";
-	document.getElementById("total").innerHTML="$" + 0;
-	document.getElementById("totalamount").innerHTML="$" + 0;
-	waitpur = 0;
-	totalamount = 0;
+	if (waitpur == 0){
+		totalsales = totalsales + totalamount;
+		document.getElementById("quantity").innerHTML="";
+		document.getElementById("list").innerHTML="";
+		document.getElementById("price").innerHTML="";
+		document.getElementById("total").innerHTML="";
+		document.getElementById("totalamount").innerHTML="$" + 0;
+		numlistbefore = "";
+		waitpur = 0;
+		totalamount = 0;
+	}
 }
 
 function cancel(){
 	document.getElementById("quantity").innerHTML="";
 	document.getElementById("list").innerHTML="";
+	document.getElementById("price").innerHTML="";
 	document.getElementById("total").innerHTML="$" + 0;
 	document.getElementById("totalamount").innerHTML="$" + 0;
 	waitpur = 0;

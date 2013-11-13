@@ -29,21 +29,25 @@
 		</div>
 		
 		<div class="center_pad">
-			<div class="center_dis" style="border-bottom: thick solid #000000">
-				<div class="list_seg" style="width: 15%;">Quantity <br /></div>
-				<div class="list_seg" style="width: 70%;">Product                  Price Per <br /></div>
-				<div class="list_seg" style="width: 15%;">Total <br /></div>
-				<br />
-			</div>
-			<div class="center_dis">
-				<div class="list_seg" style="width: 15%; height: 50%;" id="quantity"></div>
-				<div class="list_seg" style="width: 70%; height: 50%;" id="list"></div>
-				<div class="list_seg" style="width: 15%; height: 50%;" id="total"></div>
-				<br />
-			</div>
-			<div class="center_dis" style="border-top: thin solid #000000">
-				<div class="list_seg" style="width: 85%;">Total<br /></div>
-				<div class="list_seg" style="width: 15%;" id="totalamount">$0</div>
+			<div class="readout">
+				<div class="center_dis" style="border-bottom: thick solid #000000">
+					<div class="list_seg" style="width: 15%;">Quantity <br /></div>
+					<div class="list_seg" style="width: 55%;">Product<br /></div>
+					<div class="list_seg" style="width: 15%;">Price Per <br /></div>
+					<div class="list_seg" style="width: 15%;">Total <br /></div>
+					<br />
+				</div>
+				<div class="center_dis" style="height: 90%;">
+					<div class="list_seg" style="width: 15%; height: 100%;" id="quantity"></div>
+					<div class="list_seg" style="width: 55%; height: 100%;" id="list"></div>
+					<div class="list_seg" style="width: 15%; height: 100%;" id="price"></div>
+					<div class="list_seg" style="width: 15%; height: 100%;" id="total"></div>
+					<br />
+				</div>
+				<div class="center_dis" style="border-top: thin solid #000000">
+					<div class="list_seg" style="width: 85%;">Total<br /></div>
+					<div class="list_seg" style="width: 15%;" id="totalamount">$0</div>
+				</div>
 			</div>
 			<div class="center_input" style="height: 15%; background-color: #33CC33;" onclick="paid()">
 				Paid
@@ -90,6 +94,10 @@
 			<div class="num_but" id="" onclick="equalsign()">
 				=
 			</div>
+		</div>
+		
+		<div class="menu">
+			Menu
 		</div>
 			
 	</div>

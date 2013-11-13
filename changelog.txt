@@ -1,3 +1,23 @@
+v 0.0.04
+
+- edited config.xml to have custom info about program
+- reconfigured screen allocation to allow smaller screen sizes
+- the paid button now only works when an order has been completed instead of acting like the cancel button
+- added a temporary menu button (currently does not work)
+
+* Fixed a bug where past quantities would not be deleted
+
+^ Minimum screen size 1100x513 
+
+
+v 0.0.03 config.xml added
+
+- config.xml was added for phonegap use
+- Limited testing shows majority of code works on test platform Nexus 7
+
+^ The program has viewing issues on the test platform Nexus 7
+
+
 v 0.0.03
 
 - totalamount field is now one line
@@ -6,6 +26,7 @@ v 0.0.03
 - Quantity and items can no longer stack on each other without prior input
 - Total Sales amount is now visible by clicking on "*" key
 - Live view of quantity now implemented
+
 
 v 0.0.02
 
@@ -20,6 +41,7 @@ v 0.0.02
 ^ Quantity can be input without an item selected
 ^ Items can be added without quantities
 ^ totalamount field is to large
+
 
 v 0.0.01
 
