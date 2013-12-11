@@ -1,31 +1,20 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script src="live_data.js"></script>
 	<script src="script.js"></script>
 	<title>Landscape View</title>
 </head>
-<body>
+<body onLoad="main_load()">
 
 	<div class="content">
 		<div class="item_pad">
-			<div class="item_but" id="i0" onclick="itemPress(0)">
-				Ham Hoagies
-			</div>
-			<div class="item_but" id="i1" onclick="itemPress(1)">
-				Turkey Hoagies
-			</div>
-			<div class="item_but" id="i2" onclick="itemPress(2)">
-				Chips
-			</div>
-			<div class="item_but" id="i3" onclick="itemPress(3)">
-				Baked Goods
-			</div>
-			<div class="item_but" id="i4" onclick="itemPress(4)">
-				Soda
-			</div>
-			<div class="item_but" id="i5" onclick="itemPress(5)">
-				Water
-			</div>
+			<div class="item_but" id="i0" onclick="itemPress(0)"></div>
+			<div class="item_but" id="i1" onclick="itemPress(1)"></div>
+			<div class="item_but" id="i2" onclick="itemPress(2)"></div>
+			<div class="item_but" id="i3" onclick="itemPress(3)"></div>
+			<div class="item_but" id="i4" onclick="itemPress(4)"></div>
+			<div class="item_but" id="i5" onclick="itemPress(5)"></div>
 		</div>
 		
 		<div class="center_pad">
@@ -96,10 +85,15 @@
 			</div>
 		</div>
 		
-		<div class="menu">
+		<div class="menu" onclick="menuPress()">
 			Menu
 		</div>
 			
+	</div>
+	
+	<div class="pop_main_menu" style="visibility: hidden;" id="main_menu">
+		<a href="land_inventory.html">Inventory</a><br />
+		<a href="land_save.html">Save</a>
 	</div>
 	
 </body>

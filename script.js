@@ -13,34 +13,10 @@ var waitpur = 0;			// Wait variable for prior item input to be complete
 // Storage Variables
 
 var specialmenucon;		// Returns if special menu modifications are accepted
+var menucon = 0;
 var totalsales = 0;
 
 // End Storage Variables
-
-//Default Values
-//Item 1
-var item0 = "Ham Hoagies";
-var item0c = 1;
-
-//Item 2
-var item1 = "Turkey Hoagies";
-var item1c = 2;
-
-//Item 3
-var item2 = "Chips";
-var item2c = 0.25;
-
-//Item 4
-var item3 = "Baked Goods";
-var item3c = 0.5;
-
-//Item 5
-var item4 = "Soda";
-var item4c = 0.5;
-
-//Item 6
-var item5 = "Water";
-var item5c = 1;
 
 
 // Main Program Code
@@ -167,5 +143,19 @@ function cancel(){
 // Storage/Inventory/Sales Code
 
 function specialmenuPress(){
-	specialmenucon = confirm("Total Sales: $" + totalsales + "\n\n" + "Inventory:");
+	specialmenucon = confirm("Total Sales: $" + totalsales + "\n\n");
+}
+
+
+
+// Menu Items
+
+function menuPress(){
+	if(menucon == 0){	
+		document.getElementById("main_menu").style.visibility="visible";
+		menucon = 1;
+	}else{
+		document.getElementById("main_menu").style.visibility="hidden";
+		menucon = 0;
+	}
 }

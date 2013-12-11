@@ -88,5 +88,15 @@ div.menu {
 	height: 5%;
 	background-color: #FFFFFF;
 	border-style: outset;
+	margin-top: 2%;
 	float: right;
+}
+div.pop_main_menu {
+	width: 15%;
+	height: 25%;
+	top: 10%;
+	left: 10%;
+	float: left;
+	background-color: #FFFFFF;
+	z-index: 1;
 }

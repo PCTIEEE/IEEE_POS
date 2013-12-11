@@ -1,3 +1,17 @@
+v 0.0.06
+
+- made inventory page
+- Got sessionStorage to load default values
+- Updated code to use the sessionStorage for filling in data
+- Item Buttons now show price for item
+
+^ Clicking "=" before entering a quantity causes an error
+
+
+v 0.0.05
+
+- added functionality to the menu button
+
 v 0.0.04
 
 - edited config.xml to have custom info about program
