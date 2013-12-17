@@ -1,4 +1,4 @@
-IEEE_POS v 0.0.05
+IEEE_POS v 0.0.07
 ========
 
 An open-source html5 point of sale software. Compiled with PhoneGap for mobile use.

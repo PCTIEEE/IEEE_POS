@@ -58,12 +58,12 @@ function itemPress(item){
 				itemc = item5c;
 			break;
 		}
-		waitpur = 1;
+		waitpur = 1;	// Tells if a item was selected
 	}
 }
 
 function numPress(number){
-	if (waitpur == 1){
+	if (waitpur == 1 || waitpur == 2){
 		totallistbefore = document.getElementById("total").innerHTML;
 		switch (number)
 		{
@@ -98,13 +98,14 @@ function numPress(number){
 				x= x+"9";
 			break;
 		}
+		waitpur = 2;	// Tells if a quantity has been selected
 		document.getElementById("quantity").innerHTML=numlistbefore + x;
 	}
 }
 
 function equalsign(){
 	//numlistbefore = document.getElementById("quantity").innerHTML;
-	if (waitpur == 1){
+	if (waitpur == 2){		// Waits for a quantity to be selected
 		totalrow =  x * itemc;
 		totalamount = totalamount + totalrow;
 		numlistbefore = document.getElementById("quantity").innerHTML=  numlistbefore + x + "<br />";

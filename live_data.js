@@ -60,3 +60,21 @@ function inv_load() {
 		document.getElementById("frm5c").innerHTML = item5c;
 		
 }
+
+function inv_update() {
+	
+		sessionStorage.item0 = document.getElementById("frm0").value;
+		sessionStorage.item1 = document.getElementById("frm1").value;
+		sessionStorage.item2 = document.getElementById("frm2").value;
+		sessionStorage.item3 = document.getElementById("frm3").value;
+		sessionStorage.item4 = document.getElementById("frm4").value;
+		sessionStorage.item5 = document.getElementById("frm5").value;
+	
+		sessionStorage.item0c = document.getElementById("frm0c").value;
+		sessionStorage.item1c = document.getElementById("frm1c").value;
+		sessionStorage.item2c = document.getElementById("frm2c").value;
+		sessionStorage.item3c = document.getElementById("frm3c").value;
+		sessionStorage.item4c = document.getElementById("frm4c").value;
+		sessionStorage.item5c = document.getElementById("frm5c").value;
+		
+}

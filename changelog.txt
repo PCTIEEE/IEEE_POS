@@ -1,3 +1,12 @@
+v 0.0.07
+
+- Changes in the inventory screen now change values for the program allowing live app modifications
+- Added landscape icon picture to index page
+- Added a portrait icon picture to index page that is disabled
+- Made index page more appealing
+- b00001 Fixed
+
+
 v 0.0.06
 
 - made inventory page
@@ -5,7 +14,7 @@ v 0.0.06
 - Updated code to use the sessionStorage for filling in data
 - Item Buttons now show price for item
 
-^ Clicking "=" before entering a quantity causes an error
+^ b00001 Clicking "=" before entering a quantity causes an error
 
 
 v 0.0.05

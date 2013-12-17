@@ -21,6 +21,11 @@ div.content{
 	user-select: none;
 }
 
+/* Index.html */
+div.ind_menu{
+	text-align: center;
+	color: FFFFFF;	
+}
 
 /* Item Buttons */
 div.item_pad {

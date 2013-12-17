@@ -2,7 +2,7 @@
 
 //Item 1
 var item0 = "Ham Hoagies";
-var item0c = .75;
+var item0c = 2;
 
 //Item 2
 var item1 = "Turkey Hoagies";
