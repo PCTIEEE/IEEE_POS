@@ -20,6 +20,15 @@ div.content{
 	-ms-user-select: none;
 	user-select: none;
 }
+div.user_but {
+	width: 100px;
+	height: 40px;
+	margin: 2px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	border-style: outset;
+}
 
 /* Index.html */
 div.ind_menu{
@@ -97,11 +106,26 @@ div.menu {
 	float: right;
 }
 div.pop_main_menu {
-	width: 15%;
+	width: 110px;
 	height: 25%;
 	top: 10%;
 	left: 10%;
-	float: left;
+	float: right;
+	margin: 5px;
 	background-color: #FFFFFF;
 	z-index: 1;
+}
+
+/* Inventory */
+div.stats {
+	width: 500px;
+	height: 180px;
+	background-color: #FFFFFF;	
+}
+
+div.product_stats {
+	width: 150px;
+	height: 95%;
+	margin: 5px;
+	float: left;	
 }

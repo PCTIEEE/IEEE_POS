@@ -134,7 +134,7 @@ function cancel(){
 	document.getElementById("quantity").innerHTML="";
 	document.getElementById("list").innerHTML="";
 	document.getElementById("price").innerHTML="";
-	document.getElementById("total").innerHTML="$" + 0;
+	document.getElementById("total").innerHTML="";
 	document.getElementById("totalamount").innerHTML="$" + 0;
 	waitpur = 0;
 	totalamount = 0;

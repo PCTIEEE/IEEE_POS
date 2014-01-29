@@ -44,6 +44,10 @@ function inv_load() {
 		document.getElementById("frm4").innerHTML = item4;
 		document.getElementById("frm5").innerHTML = item5;
 		
+		document.getElementById("statp").innerHTML = "<u>Product</u> <br />" + item0 + "<br />" + item1 + "<br />" + item2 + "<br />" + item3 + "<br />" + item4 + "<br />" + item5;
+		document.getElementById("statn").innerHTML = "<u># Sold</u> <br />" + item0 + "<br />" + item1 + "<br />" + item2 + "<br />" + item3 + "<br />" + item4 + "<br />" + item5;
+		document.getElementById("statsale").innerHTML = "<u>Sales</u> <br />" + item0 + "<br />" + item1 + "<br />" + item2 + "<br />" + item3 + "<br />" + item4 + "<br />" + item5;
+		
 		//Costs
 		item0c = sessionStorage.item0c;
 		item1c = sessionStorage.item1c;

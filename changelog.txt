@@ -1,3 +1,15 @@
+v 0.0.08
+
+- Added an exit link to the index page
+- Added an exit link to landscape mode to allow exiting without saving changes
+- Made buttons out of the new exit links, update link and inventory link
+- Moved the pop-up menu closer to the menu button for ease of use
+- Fixed a bug where $0 would appear if cancel was used
+- Added a statistics area to the inventory screen
+- Statistics area currently only shows product names
+
+^ b00002 A phantom clickable area has appeared near the inventory update and exit buttons
+
 v 0.0.07
 
 - Changes in the inventory screen now change values for the program allowing live app modifications
